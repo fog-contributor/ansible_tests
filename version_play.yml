@@ -2,4 +2,3 @@
 - name: Retrieve CE OS version
   community.network.ce_command:
     commands: display version
-  when: ansible_network_os == 'community.network.ce'
