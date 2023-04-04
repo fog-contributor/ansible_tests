@@ -1,3 +1,4 @@
+---
 - name: Retrieve CE OS version
   community.network.ce_command:
     commands: display version
