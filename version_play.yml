@@ -1,4 +1,5 @@
 ---
 - name: Retrieve CE OS version
+  hosts: 192.168.1.100
   community.network.ce_command:
     commands: display version
